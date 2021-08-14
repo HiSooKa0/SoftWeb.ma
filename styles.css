@@ -1,0 +1,271 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Poppins', sans-serif;
+  color: #2F30BE;
+}
+.container-fluid{
+  padding: 1% 8%;
+}
+.colored-section {
+  background-color: #2f30be;
+  color: white;
+}
+
+.section-padding{
+padding: 50px ;
+}
+.grey-section{
+  background-color: #D0D8EA38;
+}
+
+#Title .container-fluid{
+  padding: 0 11%;
+}
+.navbar.navbar-dark {
+  color: white;
+}
+nav {
+  text-align: left;
+  font-weight: bold;
+}
+.logo {
+  width: 175px;
+}
+.custom-color{
+  color: white;
+  border: 1px solid white;
+  border-radius: 75px;}
+  .custom-color:hover{
+    color: #2F00BE;
+    background-color: white;
+    border-radius: 75px;}
+.nav-item {
+  padding-right: 20px;
+
+}
+
+.Home{
+  width: 100%;
+  height: 600px;
+    margin-bottom: 80px;
+  background: url('Images/HOME.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Message{
+  padding-top: 95px;
+  text-align:left;
+  color: #2F30BE;
+  width: 500px;
+}
+.primary_custom{
+border-radius: 6px;
+padding-top: 7px;
+padding-right: 20px;
+padding-bottom: 7px;
+padding-left: 20px;
+color: white;
+background-color: #2F00BE;
+}
+.primary_custom:hover{
+
+  color: white;
+  background-color: #00C239;
+}
+
+
+.subscript {
+  color: #575759;
+  padding-top: 5px;
+}
+.services-box{
+  text-align: left;
+  margin: 20px auto;
+  padding: 10%;
+  background-color: white;
+
+}
+.services-box:hover {
+  box-shadow:inset 0 2px 30px 0px rgba(114, 119, 135, 0.5);
+}
+.size1{
+  height: 400px;
+}
+.size2{
+  height: 320px;
+}
+
+.services-icon i{
+  margin: 10px auto 20px auto;
+  color: #2F30BE;
+  font-size: 42px;
+}
+.service-title h4{
+  color: #242a56 ;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+.card-header h4{
+  color: #242a56;
+}
+.card-body{
+  text-align: left;
+}
+.portoflio-section{
+  padding: 20px;
+}
+.edit{
+  margin-left:15px;margin-right:5px;
+}
+
+
+.portoflio-img{
+  width: 300px;
+  height: 300px;
+
+  box-shadow: 2px 2px 15px 2px #000000;
+}
+.consult-div{
+  margin-bottom: 50px;
+  width: 1000px;
+  padding:  50px;
+  background-color: white;
+  box-shadow:0px 5px 40px -10px rgba(86, 104, 146, 0.33);
+}
+.left{
+  text-align: left;
+}
+.descri{
+  width:75%;
+}
+.img-footer img{
+  width: 175px;
+  margin-bottom:  20px;
+}
+.footer-title h5{
+  color: white;
+}
+.footer {text-align: left;
+  color: white;
+  background-color: #0f2150;
+}
+.footer a{
+  color: white;
+  margin: auto 10px;
+  font-size: 20px;
+}
+.footer a:hover{
+  color: grey;
+}
+.footer .container-fluid{
+  padding: 1% 7% 1.5% 15%;
+}
+.footer-body{
+  padding-top: 20px;
+  line-height: 0.75;
+}
+.edited-hr{
+  margin: auto;
+  border: 12px #2F30BE;
+  border-style: none none dotted;
+  color: #2F30BE;
+  width: 25%;
+  background-color: white;
+}
+@media (max-width: 1028px){
+  .section-padding{
+  padding: 30px ;
+  }
+  .descri{
+    width:100%;
+  }
+  .footer .container-fluid{
+    padding: 1% 8%;
+  }
+  .footer .col-lg-4{margin: 15px;}
+  .img-footer img{
+    width: 145px;
+    margin-bottom:  20px;
+  }
+  .Home{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background: url('Images/Phone.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .portoflio-img{
+    width: 240px;
+    height: 240px;
+
+  }
+  .left{
+    text-align: center;
+  }
+  .consult-div{
+    width: auto;
+    margin:10px;
+    padding: 15px 25px;
+
+  }
+  .Message{
+    padding-top: 0px;
+    text-align:center;
+    height: 600px;
+
+    width: auto;
+  }
+  .Message h1{
+    font-size: 40px;
+    margin-top: -60px;
+    margin-bottom: 400px;
+  }
+  .services-box{
+    padding: 3% 5%;
+
+    width: auto;
+    height: auto;
+  }
+  .services-section {
+    padding: 25px ;
+
+  }
+  .services-section .container-fluid{
+    padding: 5% 0;
+  }
+  .section-title{
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px){
+  .Home{
+    margin-top: 60px;
+    background: url('Images/Phone.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .Message{
+    padding-top: 0px;
+    text-align:center;
+    height: 500px;
+
+    width: auto;
+  }
+  .Message h1{
+    font-size: 30px;
+    margin-top: -60px;
+    margin-bottom: 300px;
+  }
+
+}
